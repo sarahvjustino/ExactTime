@@ -3,3 +3,40 @@
 @import "utilities";
 
 @include reset;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: $primary-bg-color;
+  color: $white;
+}
+
+.primary-bg-color {
+  background-color: $primary-bg-color;
+}
+
+.secondary-bg-color {
+  background-color: $secondary-bg-color;
+}
+
+.light-bg-color {
+  background-color: $light-bg-color;
+}
+
+.dark-bg-color {
+  background-color: $dark-bg-color;
+}
+
+.primary-color {
+  color: $secondary-bg-color;
+}
+
+.secondary-color {
+  color: $secondary-color;
+}
+
+.light-color {
+  color: $light-bg-color;
+}
