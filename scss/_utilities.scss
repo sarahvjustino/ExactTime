@@ -12,3 +12,9 @@
     font-size: 1.6rem;
   }
 }
+
+@mixin desktop {
+  @media (min-width: 768px) {
+    @content;
+  }
+}

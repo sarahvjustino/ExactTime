@@ -50,4 +50,89 @@ body {
   color: #fcf5eb;
 }
 
+#navbar .navbar-nav {
+  flex-direction: row;
+  justify-content: end;
+}
+#navbar .navbar-nav li {
+  margin-left: 1rem;
+}
+#navbar a, #navbar button {
+  color: #fff;
+}
+#navbar li {
+  position: relative;
+}
+#navbar i {
+  font-size: 2rem;
+}
+#navbar span {
+  position: absolute;
+  top: -0.8rem;
+  right: -0.8rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #ef3636;
+  text-align: center;
+}
+#navbar span#bag-item {
+  left: 2rem;
+}
+#navbar .navbar-brand {
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+  #navbar .navbar-brand {
+    text-align: left;
+  }
+}
+#navbar #navbar-items {
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  #navbar #navbar-items {
+    min-width: 80%;
+    display: flex;
+  }
+}
+#navbar #search-form {
+  width: 100%;
+  margin: 2rem 0;
+  border: 2px solid #626262;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1.5rem;
+}
+@media (min-width: 768px) {
+  #navbar #search-form {
+    width: 50%;
+    margin: 0;
+  }
+}
+#navbar #search-form input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+#navbar #search-form input:focus {
+  box-shadow: none;
+}
+#navbar #search-form input::placeholder {
+  color: #fff;
+}
+
+#bottom-navbar-container .container {
+  justify-content: flex-end;
+}
+#bottom-navbar-container a {
+  font-weight: 600;
+  color: #fff;
+}
+#bottom-navbar-container .navbar-toggler {
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
