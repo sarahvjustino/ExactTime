@@ -135,4 +135,36 @@ body {
   font-size: 1.5rem;
 }
 
+.banners-container {
+  padding: 0;
+}
+
+.carousel-caption {
+  bottom: 5rem;
+  padding: 1rem;
+  left: 12%;
+  right: 12%;
+}
+@media (min-width: 768px) {
+  .carousel-caption {
+    left: 23%;
+    right: 23%;
+  }
+}
+.carousel-caption h5 {
+  font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #slider .carousel-item,
+  #slider img {
+    height: 60rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

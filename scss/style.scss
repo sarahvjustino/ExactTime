@@ -41,7 +41,7 @@ body {
   color: $light-bg-color;
 }
 
-// Navbar
+//Top Navbar
 #navbar {
   .navbar-nav {
     flex-direction: row;
@@ -128,6 +128,7 @@ body {
   }
 }
 
+//Bottom Navbar
 #bottom-navbar-container {
   & .container {
     justify-content: flex-end;
@@ -140,5 +141,39 @@ body {
 
   .navbar-toggler {
     font-size: 1.5rem;
+  }
+}
+
+// Banners
+.banners-container {
+  padding: 0;
+}
+
+.carousel-caption {
+  bottom: 5rem;
+  padding: 1rem;
+  left: 12%;
+  right: 12%;
+
+  @include utilities.desktop {
+    left: 23%;
+    right: 23%;
+  }
+
+  & h5 {
+    font-size: 1.8rem;
+
+    @include utilities.desktop {
+      font-size: 4rem;
+    }
+  }
+}
+
+#slider {
+  .carousel-item,
+  img {
+    @include utilities.desktop {
+      height: 60rem;
+    }
   }
 }
