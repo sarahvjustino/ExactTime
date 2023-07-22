@@ -167,4 +167,51 @@ body {
   }
 }
 
+#mini-banners {
+  margin-top: -0.3rem;
+  z-index: 10;
+}
+#mini-banners .col-12 {
+  z-index: 1;
+  height: 30rem;
+  padding: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  #mini-banners .col-12 {
+    max-width: 30%;
+  }
+}
+#mini-banners .col-12 h2 {
+  text-transform: uppercase;
+  max-width: 5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1em;
+}
+#mini-banners .col-12 img {
+  height: 22rem;
+  position: absolute;
+  right: 1.6rem;
+  bottom: 1.6rem;
+}
+#mini-banners .col-12 a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+#mini-banners .col-12 a:hover {
+  color: #101010;
+}
+#mini-banners #mini-banner-3 a {
+  color: #101010;
+}
+#mini-banners #mini-banner-3 a:hover, #mini-banners #mini-banner-1 a:hover {
+  color: #c09578;
+}
+
 /*# sourceMappingURL=style.css.map */
