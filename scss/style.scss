@@ -297,3 +297,33 @@ body {
     border-color: $secondary-bg-color;
   }
 }
+
+// Bottom Banner
+#bottom-banner {
+  background-color: $dark-bg-color;
+  padding: 9.6rem;
+  margin-bottom: 6.4rem;
+  text-align: center;
+
+  & .offer-subtitle,
+  & h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  & h2 {
+    @include utilities.desktop {
+      font-size: 9.6rem;
+    }
+  }
+
+  & .btn {
+    margin: 3.2rem;
+    font-weight: bold;
+    padding: 1.6rem;
+  }
+
+  & img {
+    max-width: 17.5rem;
+  }
+}
