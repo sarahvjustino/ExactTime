@@ -9,6 +9,7 @@
 }
 
 body {
+  font-size: 1.6rem;
   background-color: $primary-bg-color;
   color: $white;
 }
@@ -122,6 +123,7 @@ body {
       }
 
       &::placeholder {
+        font-size: 1.4rem;
         color: $white;
       }
     }
@@ -231,5 +233,67 @@ body {
   & #mini-banner-3 a:hover,
   & #mini-banner-1 a:hover {
     color: $secondary-bg-color;
+  }
+}
+
+// Best Sellers
+
+#best-sellers {
+  padding: 4rem 0;
+
+  & .row {
+    margin: 0;
+  }
+
+  & .col-md-3 {
+    padding: 0;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+
+  @include utilities.desktop {
+    text-align: left;
+  }
+}
+
+.card {
+  text-align: center;
+  border-radius: 0;
+
+  & img {
+    width: 14rem;
+    height: 25rem;
+    margin: 3.2rem auto;
+  }
+
+  & .card-category {
+    font-size: 1.3rem;
+  }
+
+  & .card-title {
+    color: $white;
+    font-size: 1.6rem;
+  }
+
+  & .card-text {
+    margin: 3.2rem 0;
+    font-weight: bold;
+  }
+}
+
+.btn {
+  font-size: 1.6rem;
+  background-color: transparent;
+  border-color: $secondary-bg-color;
+
+  &:hover {
+    background-color: $secondary-bg-color;
+    border-color: $secondary-bg-color;
   }
 }

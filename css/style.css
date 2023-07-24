@@ -9,15 +9,12 @@
   font-size: 62.5%;
 }
 
-body {
-  font-size: 1.6rem;
-}
-
 * {
   font-family: "Montserrat", sans-serif;
 }
 
 body {
+  font-size: 1.6rem;
   background-color: #252525;
   color: #fff;
 }
@@ -121,6 +118,7 @@ body {
   box-shadow: none;
 }
 #navbar #search-form input::placeholder {
+  font-size: 1.4rem;
   color: #fff;
 }
 
@@ -212,6 +210,60 @@ body {
 }
 #mini-banners #mini-banner-3 a:hover, #mini-banners #mini-banner-1 a:hover {
   color: #c09578;
+}
+
+#best-sellers {
+  padding: 4rem 0;
+}
+#best-sellers .row {
+  margin: 0;
+}
+#best-sellers .col-md-3 {
+  padding: 0;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .title {
+    text-align: left;
+  }
+}
+
+.card {
+  text-align: center;
+  border-radius: 0;
+}
+.card img {
+  width: 14rem;
+  height: 25rem;
+  margin: 3.2rem auto;
+}
+.card .card-category {
+  font-size: 1.3rem;
+}
+.card .card-title {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.card .card-text {
+  margin: 3.2rem 0;
+  font-weight: bold;
+}
+
+.btn {
+  font-size: 1.6rem;
+  background-color: transparent;
+  border-color: #c09578;
+}
+.btn:hover {
+  background-color: #c09578;
+  border-color: #c09578;
 }
 
 /*# sourceMappingURL=style.css.map */
