@@ -358,3 +358,41 @@ body {
     object-fit: cover;
   }
 }
+
+// Gallery
+#gallery .image-container {
+  background-size: cover;
+  background-position: center;
+  height: 22.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 3px solid $dark-bg-color;
+
+  &:hover {
+    border-color: $secondary-bg-color;
+  }
+}
+
+#insta1 {
+  background-image: url(../img/insta1.jpg);
+}
+
+#insta2 {
+  background-image: url(../img/insta2.jpg);
+}
+
+#insta3 {
+  background-image: url(../img/insta3.jpg);
+}
+
+#insta4 {
+  background-image: url(../img/insta4.jpg);
+}
+
+#insta5 {
+  background-image: url(../img/insta5.jpg);
+}
+
+#insta6 {
+  background-image: url(../img/insta6.jpg);
+}
